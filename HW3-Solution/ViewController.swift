@@ -17,6 +17,7 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
     @IBOutlet weak var calculatorHeader: UILabel!
     
     var currentMode : CalculatorMode = .Length
+    var entries: [Conversion] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +39,7 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
     @IBAction func calculatePressed(_ sender: UIButton) {
         // determine source value of data for conversion and dest value for conversion
         var dest : UITextField?
-
+        
         var val = ""
         if let fromVal = fromField.text {
             if fromVal != "" {
@@ -67,6 +68,7 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
                     let convKey =  LengthConversionKey(toUnits: tUnits, fromUnits: fUnits)
                     let toVal = fromVal * lengthConversionTable[convKey]!;
                     dest?.text = "\(toVal)"
+                    entries.append(Conversion.init(fromVal: fromVal, toVal: toVal, mode: currentMode, fromUnits: fromUnits.text!, toUnits: toUnits.text!, timestamp: Date()))
                 }
             case .Volume:
                 var fUnits, tUnits : VolumeUnit
@@ -81,6 +83,7 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
                     let convKey =  VolumeConversionKey(toUnits: tUnits, fromUnits: fUnits)
                     let toVal = fromVal * volumeConversionTable[convKey]!;
                     dest?.text = "\(toVal)"
+                    entries.append(Conversion.init(fromVal: fromVal, toVal: toVal, mode: currentMode, fromUnits: fromUnits.text!, toUnits: toUnits.text!, timestamp: Date()))
                 }
             }
         }
