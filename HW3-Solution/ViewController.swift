@@ -135,6 +135,11 @@ class ViewController: UIViewController, SettingsViewControllerDelegate {
                 target.delegate = self
             }
         }
+        if segue.identifier == "historySegue" {
+            if let  target = segue.destination.children[0] as? HistoryTableViewController {
+                target.entities = entries
+            }
+        }
     }
 
     func settingsChanged(fromUnits: LengthUnit, toUnits: LengthUnit)

@@ -118,7 +118,7 @@
                     <navigationItem key="navigationItem" id="auh-h8-8iS">
                         <barButtonItem key="leftBarButtonItem" title="History" id="7lA-2a-YAC">
                             <connections>
-                                <segue destination="NvZ-Ho-uYC" kind="show" identifier="historySeque" id="LUV-97-Cc5"/>
+                                <segue destination="NvZ-Ho-uYC" kind="show" identifier="historySegue" id="LUV-97-Cc5"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="Az4-IC-kcv">
@@ -224,12 +224,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hd8-py-VgW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2471.1999999999998" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1951" y="134"/>
         </scene>
-        <!--Table View Controller-->
+        <!--History Table View Controller-->
         <scene sceneID="Vzk-yv-8Vq">
             <objects>
-                <tableViewController id="NvZ-Ho-uYC" sceneMemberID="viewController">
+                <tableViewController id="NvZ-Ho-uYC" customClass="HistoryTableViewController" customModule="HW3_Solution" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DCI-bG-JCi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

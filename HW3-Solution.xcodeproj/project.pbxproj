@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3373B9DA2368E2AA00E19EB5 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373B9D92368E2AA00E19EB5 /* Conversion.swift */; };
-		3373B9DC2368ECF500E19EB5 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3373B9DB2368ECF500E19EB5 /* HistoryTableViewController.swift */; };
+		33801B40236A026F000722E5 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33801B3F236A026F000722E5 /* HistoryTableViewController.swift */; };
 		9E1E65472142BF8800F4E8CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E65462142BF8800F4E8CB /* AppDelegate.swift */; };
 		9E1E65492142BF8800F4E8CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E65482142BF8800F4E8CB /* ViewController.swift */; };
 		9E1E654C2142BF8800F4E8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1E654A2142BF8800F4E8CB /* Main.storyboard */; };
@@ -43,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		3373B9D92368E2AA00E19EB5 /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
-		3373B9DB2368ECF500E19EB5 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		33801B3F236A026F000722E5 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		9E1E65432142BF8800F4E8CB /* HW3-Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3-Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1E65462142BF8800F4E8CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E1E65482142BF8800F4E8CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				9EE845AD215BE2820091EFE4 /* ConversionCalcLabel.swift */,
 				9EE845AF215BE2AD0091EFE4 /* ConversionCalcButton.swift */,
 				3373B9D92368E2AA00E19EB5 /* Conversion.swift */,
-				3373B9DB2368ECF500E19EB5 /* HistoryTableViewController.swift */,
+				33801B3F236A026F000722E5 /* HistoryTableViewController.swift */,
 			);
 			path = "HW3-Solution";
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 				9E1E65772142C53800F4E8CB /* UnitsAndModes.swift in Sources */,
 				9EE845B0215BE2AD0091EFE4 /* ConversionCalcButton.swift in Sources */,
 				3373B9DA2368E2AA00E19EB5 /* Conversion.swift in Sources */,
-				3373B9DC2368ECF500E19EB5 /* HistoryTableViewController.swift in Sources */,
+				33801B40236A026F000722E5 /* HistoryTableViewController.swift in Sources */,
 				9E1E65752142C38700F4E8CB /* DecimalMinusTextField.swift in Sources */,
 				9EE845AE215BE2820091EFE4 /* ConversionCalcLabel.swift in Sources */,
 				9E1E65492142BF8800F4E8CB /* ViewController.swift in Sources */,
